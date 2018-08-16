@@ -127,7 +127,7 @@ const YES_OR_NO_PROMPT: vscode.MessageItem[] = [
     }
 ];
 
-export async function configure2(folderPath?: string): Promise<void> {
+export async function configure(folderPath?: string): Promise<void> {
     if (!folderPath) {
         let folder: vscode.WorkspaceFolder;
         folder = vscode.workspace.workspaceFolders[0];

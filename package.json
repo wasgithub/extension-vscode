@@ -12,19 +12,19 @@
     ],
     "activationEvents": [
         "onCommand:extension.sayHello",
-        "onCommand:vscode-docker.configure2"
+        "onCommand:vscode-docker.configure"
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [
             {
                 "command": "extension.sayHello",
-                "title": "Hello",
+                "title": "Hello was",
                 "category": "THF"
             },
             {
-                "command": "vscode-docker.configure2",
-                "title": "Add Docker files to Workspace",
+                "command": "vscode-docker.configure",
+                "title": "Add Docker files to Workspace was",
                 "description": "Add Dockerfile, docker-compose.yml files",
                 "category": "THF"
             }
